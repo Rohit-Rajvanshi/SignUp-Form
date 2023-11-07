@@ -1,0 +1,126 @@
+body{
+    padding:0;
+    margin:0;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+img{
+    height: 100vh;
+}
+
+.heading{
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.t1 , .t2{
+    color: white;
+    font-family: "Kanit","arial";
+    font-size: x-large;
+}
+
+.img{
+    position: relative;
+}
+.web{
+    position: absolute;
+    top: 21.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    color: white;
+    font-family: "Kanit","arial";
+}
+
+h1{
+    font-family:"Kanit",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.form{
+    background-color: rgb(16, 14, 14);
+    margin-left: 0;
+    padding-left: 40px;  
+
+}
+label{
+    color: white;
+    font-family: "Kanit",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    letter-spacing: 0.1em;
+    
+}
+
+input{
+    display: block;
+    width:  210px;
+    height: 20px;
+    border: 2px  solid rgb(17, 174, 17) ;
+    border-radius: 4px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cm{
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+
+button{
+    background-color: red;
+    border: 1px solid ;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+    width: 200px;
+}
+
+.footer{
+    font-size: medium;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: "Kanit",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+input:invalid{
+    display: block;
+    width:  210px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline:  none;
+    display: block;
+    width:  210px;
+    height: 20px;
+    border: 1px solid blue ;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.592);
+}
+
